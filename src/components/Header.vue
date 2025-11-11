@@ -88,7 +88,7 @@
         <ul
           class="hidden md:flex justify-center py-3 flex-wrap gap-x-6 text-sm font-medium text-white"
         >
-          <li v-for="item in items" :key="item.id">
+          <li v-for="item in navItems" :key="item.id">
             <a
               :href="item.link"
               class="hover:text-pink-300 transition-colors"
@@ -116,7 +116,7 @@
 </template>
 
 <script setup>
-// import { Icon } from "@iconify/vue";
+import { Icon } from "@iconify/vue";
 import { ref, onMounted, onUnmounted } from "vue";
 
 const isScrolled = ref(false);
