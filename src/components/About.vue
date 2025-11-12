@@ -66,7 +66,5 @@
 
 <script setup>
 import { product } from "../assets/index.js";
-
-// const aboutImage = product;
 </script>
 

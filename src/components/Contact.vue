@@ -68,7 +68,7 @@
         </div>
 
         <div class="space-y-8">
-          <div class="bg-white p-8 rounded-lh shadow-xl border border-gray-100">
+          <div class="bg-white p-8 rounded-lg shadow-xl border border-gray-100">
             <h2 class="text-2xl font-serif font-semibold text-gray-900 mb-6">
               Contact Informations
             </h2>
