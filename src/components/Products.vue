@@ -84,12 +84,15 @@
                         )
                       }}
                     </span>
-                    <span v-if="product.discount > 0">
+                    <span
+                      v-if="product.discount > 0"
+                      class="text-sm text-gray-500 line-through ml-2"
+                    >
                       ${{ product.price.toFixed(2) }}
                     </span>
                   </div>
                   <button
-                    class="p-2 bg-pink-950 rounded-full text-white hover:bg-pink-00 transition-colors"
+                    class="p-2 bg-pink-950 rounded-full text-white hover:bg-pink-700 transition-colors"
                     aria-label="Add to cart"
                   >
                     <Icon

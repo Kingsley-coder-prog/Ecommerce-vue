@@ -52,7 +52,7 @@ import {
   product13,
 } from "../assets/index.js";
 
-const categories = [
+const categories = ref([
   {
     image: product8,
     title: "Men's Collection",
@@ -89,5 +89,5 @@ const categories = [
     description: "Bold & masculine scents",
     alt: "Men's Collection",
   },
-];
+]);
 </script>
